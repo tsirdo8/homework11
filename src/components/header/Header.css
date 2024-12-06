@@ -1,0 +1,29 @@
+/* Header.css */
+
+.header {
+  background-color: #333; /* Dark background */
+  padding: 10px 20px; /* Spacing around the header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav {
+  display: flex;
+  justify-content: center; /* Center-align the links */
+  gap: 20px; /* Space between links */
+}
+
+.nav-link {
+  color: #fff; /* White text */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Slightly larger text */
+  font-family: "Manrope", sans-serif; /* Use your preferred font */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Light blue color on hover */
+}
+
+.nav-link:active {
+  color: #0056b3; /* Darker blue on click */
+}
